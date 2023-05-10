@@ -65,7 +65,7 @@ def stop(update: Update, context: CallbackContext):
 
 
 def main():
-    token = os.getenv('TELEGRAM_TOKEN', '6184630791:AAFW4JDa2Aw6s4ddVJ9S7Seck4OKkK2MaPI')
+    token = os.getenv('TELEGRAM_TOKEN', '')
     updater = Updater(token=token, use_context=True)
     dispatcher = updater.dispatcher
 
