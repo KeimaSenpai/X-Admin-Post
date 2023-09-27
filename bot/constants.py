@@ -6,7 +6,7 @@ administradores = [
 
 # Enlaces a diferentes canales
 # Es mejor solo cambiar el contenido de las variables
-MAIN_CHANNEL = 'https://t.me/x_anime_channel'
+MAIN_CHANNEL = 'https://t.me/+HiTRqrosEiE2N2Qx'
 PELICULAS_CHANNEL = 'https://t.me/+fCjLPjVWoOMyZTZh'
 SERIES_CHANNEL = 'https://t.me/+ijxqwD9rAbczMWZh'
 
