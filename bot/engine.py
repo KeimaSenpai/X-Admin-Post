@@ -40,8 +40,15 @@ def start(update: Update, context: CallbackContext):
                 '<b>No tienes acceso para usar este bot.</b>'
             ),
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text='🍀 X Anime 🍀', url=con.ANIME_CHANNEL)],
-                [InlineKeyboardButton(text='🍀 X Anime Series 🍀', url=con.SERIES_CHANNEL)]
+                [InlineKeyboardButton(
+                    text='🍀 X Anime 🍀',
+                    url=con.MAIN_CHANNEL)],
+                [InlineKeyboardButton(
+                    text='🍀 X Series 🍀',
+                    url=con.SERIES_CHANNEL)],
+                [InlineKeyboardButton(
+                    text='🍀 X Películas 🍀',
+                    url=con.PELICULAS_CHANNEL)],
             ]),
             parse_mode=ParseMode.HTML
         )
