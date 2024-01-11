@@ -1,1 +1,1 @@
-clear & python3 -m main
+clear & python3 start.py
