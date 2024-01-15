@@ -27,7 +27,7 @@ def peliculas(update: Update, context: CallbackContext):
                                  )
         return con.PHOTO_PELI
     else:
-        context.bot.send_message(chat_id=update.effective_user.id, text='Debes enviar una imagen, intentalo otra vez.')
+        context.bot.send_message(chat_id=update.effective_user.id, text='Debes enviar una imagen.')
         return ConversationHandler.END
 
 
