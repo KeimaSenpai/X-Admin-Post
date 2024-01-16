@@ -1,1 +1,1 @@
-clear & python3 -m bot
+clear & python3 start.py
