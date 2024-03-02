@@ -1,5 +1,8 @@
-FROM encodev/srcbot:2024.02.26
-WORKDIR /usr/src/app
+FROM python:3.10.6-slim-buster
+
+WORKDIR .
 COPY . .
+
 RUN pip3 install -r requirements.txt
-CMD ["bash", "onrender.sh"]
+
+CMD ["python3", "start.py"]
