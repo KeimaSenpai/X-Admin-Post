@@ -1,4 +1,4 @@
-FROM encodev/onrender:latest
+FROM encodev/srcbot:2024.02.26
 WORKDIR /usr/src/app
 COPY . .
 RUN pip3 install -r requirements.txt
