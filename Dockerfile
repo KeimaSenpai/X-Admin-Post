@@ -12,7 +12,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copia el script de Python al contenedor
-COPY start.py .
+COPY . .
 
 # Ejecuta el script cuando el contenedor se inicia
 CMD ["python", "start.py"]
