@@ -15,4 +15,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Ejecuta el script cuando el contenedor se inicia
-CMD ["python", "start.py"]
+CMD ["bash", "start.sh"]
