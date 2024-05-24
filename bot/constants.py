@@ -6,6 +6,7 @@ administradores = [
 
 # Enlaces a diferentes canales
 # Es mejor solo cambiar el contenido de las variables
+# Recordar cada canal se guarda en el mensaje
 MAIN_CHANNEL = 'https://t.me/+HiTRqrosEiE2N2Qx'
 PELICULAS_CHANNEL = 'https://t.me/+fCjLPjVWoOMyZTZh'
 SERIES_CHANNEL = 'https://t.me/+ijxqwD9rAbczMWZh'
