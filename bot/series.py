@@ -11,10 +11,10 @@ def facts_to_str(user_data: Dict[str, str]):
             f'📽️ <b>Resolución:</b> {user_data["resolucion"]}\n'
             f'🔎 <b>Capítulos:</b> {user_data["capitulos"]}\n'
             f'🎥 <b>Temporada:</b> {user_data["temporada"]}\n\n'
-            f'📝 <b>Sinopsis:</b> <blockquote expandable>{user_data["sinopsis"]}</blockquote>\n\n\n'
+            f'📝 <b>Sinopsis:</b> <blockquote expandable>{user_data["sinopsis"]}</blockquote>\n\n'
             f'🔮 <b>Género:</b> {user_data["genero"]}\n'
             # f' <b>Subido por:</b> <a href="tg://user?id={user}">{name}</a>\n'
-            '⚝━━━━━━━━━━━━━━━━━━━⚝\n'
+            '⚝━━━━━━━━━━━━━━━━━⚝\n'
             f'🍥 <a href="{con.MAIN_CHANNEL}"><b>X Anime</b></a> 🍱 '
             f'🍥 <a href="{con.SERIES_CHANNEL}"><b>Ver</b></a> 🍱')
 
