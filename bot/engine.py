@@ -72,7 +72,7 @@ def stop(update: Update, context: CallbackContext):
 
 
 def main():
-    token = os.getenv('TELEGRAM_TOKEN', '')
+    token = os.getenv('BOT_TOKEN', '')
     updater = Updater(token=token, use_context=True)
     dispatcher = updater.dispatcher
 
