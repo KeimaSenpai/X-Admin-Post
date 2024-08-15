@@ -1,13 +1,18 @@
-FROM encodev/onrender:2024.03.05
+# Usa una imagen de Python
+FROM python:3.11.6
 
-WORKDIR /usr/src/app
+# Establece el directorio de trabajo en /app
+WORKDIR /app
 
-RUN chmod 777 /usr/src/app
+RUN apt update && apt upgrade -y
+# Copia el archivo de requisitos al contenedor
+COPY requirements.txt .
 
+# Instala las dependencias
+RUN pip install -r requirements.txt
+
+# Copia el script de Python al contenedor
 COPY . .
 
-RUN pip3 install --no-cache-dir -r requirements.txt \
-    && pip cache purge \
-    && rm -rf .git* Dockerfile requirements.txt
-
-CMD ["bash", "onrender.sh"]
+# Ejecuta el script cuando el contenedor se inicia
+CMD ["bash", "start.sh"]
